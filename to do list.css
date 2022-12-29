@@ -1,0 +1,39 @@
+#head {
+    display: flex;
+    height: 30px;
+    width: auto;
+    /* background-color:red; */
+}
+#ul > div {
+    border: 0.5px solid grey;
+    background-color: rgb(199, 199, 199);
+    width: auto;
+    font-size: large;
+}
+#ul > div:hover {
+    background-color: rgb(153, 153, 153);
+}
+#x {
+    float: right;
+    border: 0px solid red;
+    width: 15px;
+    text-align: center;
+    color: grey;
+}
+#x:hover {
+    background-color:red;
+    color: black;
+}
+
+
+#ul > div > span {
+    float: right;
+    border: 0px solid red;
+    width: 15px;
+    text-align: center;
+    color: grey;
+}
+#ul > div > span:hover {
+    background-color:red;
+    color: black;
+}
